@@ -5,14 +5,22 @@
     padding-right: 5px;
 }
 
+/* CSS for Home Intro starts here */
+
+.home-intro{
+    margin: 100px auto;
+    padding: 50px 25px;
+    width: 75%;
+}
+
 /* CSS for Quote Form starts here */
 
 .quote-form{
     border: 1px solid green;
     border-radius: 10px;
-    margin: 100px auto;
+    margin: 100px 0;
     padding: 50px 25px;
-    width: 50%;
+    width: 75%;
 }
 
 .form-group{
