@@ -26,3 +26,23 @@
 .form-group{
     margin-bottom: 10px;
 }
+
+/* CSS for company- motto starts here */
+
+.company-motto-container{
+    background-color: green;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.company-motto{
+    font-size: 1.75rem !important;
+    padding: 25px 0;
+    font-style: italic;
+}
+
+.customer-satisfaction{
+    font-weight: bold;
+    font-size: 1.85rem !important;
+}
