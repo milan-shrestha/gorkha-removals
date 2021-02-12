@@ -5,16 +5,77 @@
     padding-right: 5px;
 }
 
+/* CSS for Home Intro starts here */
+
+.home-intro{
+    margin: 100px auto;
+    padding: 50px 25px;
+    width: 75%;
+}
+
 /* CSS for Quote Form starts here */
 
 .quote-form{
     border: 1px solid green;
     border-radius: 10px;
-    margin: 100px auto;
+    margin: 100px 0;
     padding: 50px 25px;
-    width: 50%;
+    width: 75%;
 }
 
 .form-group{
     margin-bottom: 10px;
+}
+
+/* CSS for company- motto starts here */
+
+.company-motto-container{
+    background-color: green;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.company-motto{
+    font-size: 1.75rem !important;
+    padding: 25px 0;
+    font-style: italic;
+}
+
+.customer-satisfaction{
+    font-weight: bold;
+    font-size: 1.85rem !important;
+}
+
+/* CSS for company services starts here */
+
+.company-services-container{
+    padding: 100px 0;
+}
+
+.services-title{
+    color: green;
+    margin-bottom: 25px;
+}
+
+.service-box{
+    border: 1px solid green;
+    border-radius: 10px;
+    margin: 0 10px 25px 10px;
+}
+
+.services-img{
+    width: 95%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 15px auto; 
+}
+
+.service-description-box{
+    padding: 15px;
+    background-color: green;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
