@@ -5,6 +5,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="js/main.js"></script>
     <title>Home Page</title>
 </head>
@@ -139,6 +140,99 @@
             <p class="lead">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p> 
           </div> 
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="contact-container">
+  <h4 class="display-3 text-center contact-title">Contact Us</h4>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="address-map">
+          <iframe class="google-map img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.275723595313!2d151.21310801516606!3d-33.85678438065956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae665e892fdd%3A0x3133f8d75a1ac251!2sSydney%20Opera%20House!5e0!3m2!1sen!2sus!4v1613149877179!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="contact-info">
+          <table>
+            <tr>
+              <td>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+              </td>
+              <td>
+                <p class="lead">123 Sydney<br>
+                NSW 111
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+              </td>
+              <td>
+                <p class="lead">0123456789</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <i class="fa fa-fax" aria-hidden="true"></i>
+              </td>
+              <td>
+                <p class="lead">0123456789</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              </td>
+              <td>
+                <p class="lead">contact@ownremovals.com</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <i class="fa fa-share" aria-hidden="true"></i>
+              </td>
+              <td>
+                <button class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#emailModalCenter">Click to Email Us</button>
+              </td>
+            </tr>
+          </table>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Email Modal -->
+<div class="modal fade" id="emailModalCenter" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Email Us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <form id="email-form" target="_blank" action="https://formsubmit.co/65401d59935c2baacc61b10aca3bcfc8" method="POST">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+            </div>
+            <div class="d-grid gap-2">
+              <input type="button" value="Submit Form" class="btn btn-success" onclick="submitEmailForm()">
+            </div>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+        </form>
       </div>
     </div>
   </div>
