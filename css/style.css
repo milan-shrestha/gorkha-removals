@@ -112,6 +112,7 @@
     border-radius: 10px;
     background-color: #fff;
     padding: 5px;
+    margin-bottom: 15px;
 }
 
 .google-map{
@@ -128,8 +129,9 @@
     border-radius: 10px;
     background-color: #fff;
     color: green;
-    padding: 15px;
+    padding: 35px 25px 15px 25px;
     height: 300px;
+    margin-bottom: 15px;
 }
 
 .contact-icons{
@@ -190,6 +192,16 @@
         width: 90%;
         margin: 0px auto 25px auto;
     }
+
+    .contact-info{
+        padding: 15px;
+        height: auto;
+    }
+
+    .contact-icons{
+        font-size: 1.5rem !important;
+        padding: 0 10px;
+    }
   }
 
   /* CSS for tablets screen */
@@ -222,5 +234,16 @@
     .service-box{
         width: 90%;
         margin: 0px auto 25px auto;
+    }
+
+    
+    .contact-info{
+        padding: 15px;
+        height: auto;
+    }
+
+    .contact-icons{
+        font-size: 1.5rem !important;
+        padding: 0 10px;
     }
   }
