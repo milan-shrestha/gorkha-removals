@@ -1,9 +1,5 @@
 /* CSS for navigation bar starts here */
 
-.navbar{
-    background-color: #fff !important;
-}
-
 .nav-item{
     text-align: right;
     padding-right: 5px;
@@ -17,9 +13,14 @@
 /* CSS for Home Intro starts here */
 
 .home-intro{
-    margin: 100px auto;
+    margin: 175px auto;
     padding: 50px 25px;
     width: 75%;
+}
+
+.home-intro-title{
+    color: green;
+    margin-bottom: 15px;
 }
 
 /* CSS for Quote Form starts here */
@@ -28,8 +29,13 @@
     border: 1px solid green;
     border-radius: 10px;
     margin: 100px 0;
-    padding: 50px 25px;
-    width: 75%;
+    padding: 25px 25px 50px 25px;
+    width: 90%;
+}
+
+.form-title{
+    color: green;
+    margin-bottom: -15px !important;
 }
 
 .form-group{
@@ -152,3 +158,49 @@
     font-size: 1rem;
     color: green;
 }
+
+/* CSS for mobile devices */
+
+@media (max-width: 480px) {
+
+    .display-4{
+        font-size: 2rem !important;
+    }
+
+    .home-intro{
+        margin: 100px auto 25px auto;
+        padding: 25px 5px;
+        width: 90%;
+    }
+
+    .quote-form{
+        border: 1px solid green;
+        border-radius: 10px;
+        margin: 100px auto;
+        padding: 25px 25px 50px 25px;
+        width: 100%;
+    }
+  }
+
+  /* CSS for tablets screen */
+
+  @media (max-width: 768px) {
+
+    .display-4{
+        font-size: 2rem !important;
+    }
+
+    .home-intro{
+        margin: 100px auto 25px auto;
+        padding: 25px 5px;
+        width: 90%;
+    }
+
+    .quote-form{
+        border: 1px solid green;
+        border-radius: 10px;
+        margin: 25px auto 100px auto;
+        padding: 25px 25px 50px 25px;
+        width: 90%;
+    }
+  }
