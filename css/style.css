@@ -202,6 +202,17 @@
         font-size: 1.5rem !important;
         padding: 0 10px;
     }
+
+    .social-links{
+        font-size: 2rem !important;
+        margin: 0 1px;
+        color: green;
+    }
+    
+    .copyright-msg{
+        font-size: 0.85rem;
+        color: green;
+    }
   }
 
   /* CSS for tablets screen */
@@ -245,5 +256,16 @@
     .contact-icons{
         font-size: 1.5rem !important;
         padding: 0 10px;
+    }
+    
+    .social-links{
+        font-size: 2rem !important;
+        margin: 0 1px;
+        color: green;
+    }
+    
+    .copyright-msg{
+        font-size: 0.85rem;
+        color: green;
     }
   }
