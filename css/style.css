@@ -1,8 +1,17 @@
 /* CSS for navigation bar starts here */
 
+.navbar{
+    background-color: #fff !important;
+}
+
 .nav-item{
     text-align: right;
     padding-right: 5px;
+}
+
+.nav-link.active{
+    background-color: green !important;
+    color: #fff !important;
 }
 
 /* CSS for Home Intro starts here */
