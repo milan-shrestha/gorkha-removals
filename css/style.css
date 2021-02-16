@@ -76,7 +76,7 @@
 .service-box{
     border: 1px solid green;
     border-radius: 10px;
-    margin: 0 10px 25px 10px;
+    margin: 0 10px 25px 10px; 
 }
 
 .services-img{
@@ -167,6 +167,11 @@
         font-size: 2rem !important;
     }
 
+    .lead{
+        font-size: 1.1rem !important;
+        line-height: 1.4;
+    }
+
     .home-intro{
         margin: 100px auto 25px auto;
         padding: 25px 5px;
@@ -180,6 +185,11 @@
         padding: 25px 25px 50px 25px;
         width: 100%;
     }
+
+    .service-box{
+        width: 90%;
+        margin: 0px auto 25px auto;
+    }
   }
 
   /* CSS for tablets screen */
@@ -188,6 +198,11 @@
 
     .display-4{
         font-size: 2rem !important;
+    }
+
+    .lead{
+        font-size: 1.1rem !important;
+        line-height: 1.4;
     }
 
     .home-intro{
@@ -202,5 +217,10 @@
         margin: 25px auto 100px auto;
         padding: 25px 25px 50px 25px;
         width: 90%;
+    }
+
+    .service-box{
+        width: 90%;
+        margin: 0px auto 25px auto;
     }
   }
