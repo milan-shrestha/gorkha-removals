@@ -182,9 +182,19 @@
         font-size: 2rem !important;
     }
 
+    .home-intro-container{
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
     .home-intro{
+        background-image: url("../img/sydney2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
         margin: 100px auto 25px auto;
-        padding: 25px 5px;
+        padding: 400px 10px 25px 10px;
         width: 90%;
     }
 
@@ -205,9 +215,19 @@
         font-size: 2rem !important;
     }
 
+    .home-intro-container{
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
     .home-intro{
+        background-image: url("../img/sydney2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
         margin: 100px auto 25px auto;
-        padding: 25px 5px;
+        padding: 400px 10px 25px 10px;
         width: 90%;
     }
 
