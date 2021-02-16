@@ -12,25 +12,40 @@
 
 /* CSS for Home Intro starts here */
 
+.home-intro-container{
+    background-image: url("../img/sydney1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .home-intro{
-    margin: 175px auto;
-    padding: 50px 25px;
+    margin: 425px auto 25px auto;
+    padding: 50px 0;
     width: 75%;
 }
 
 .home-intro-title{
-    color: green;
+    color: #fff;
+    font-weight: bold !important;
+    text-decoration: 1px 1px 1px #000;;
     margin-bottom: 15px;
+}
+
+.home-intro-text{
+    color: #fff;
+    font-weight: bold !important;
 }
 
 /* CSS for Quote Form starts here */
 
 .quote-form{
-    border: 1px solid green;
+    border: 1px solid #fff;
     border-radius: 10px;
-    margin: 100px 0;
-    padding: 25px 25px 50px 25px;
+    margin: 275px 0 25px 0;
+    padding: 25px 25px 25px 25px;
     width: 90%;
+    background-color: #fff;
 }
 
 .form-title{

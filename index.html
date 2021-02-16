@@ -40,42 +40,44 @@
         </nav>
   </div>
 
-  <div class="container" id="home">
-    <div class="row">
-      <div class="col-md-7">
-        <div class="home-intro">
-          <h4 class="display-4 home-intro-title">Removals Made Easy</h4>
-          <p class="lead">Gorkha Removal Company is a complete professional removal company specializing in house & 
-            office removals, demolition removals, any kind of rubbish removals and end of lease cleaning services. We 
-            strive to give the best service at the best price to all our costumers.
+  <div class="home-intro-container">
+    <div class="container" id="home">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="home-intro">
+            <h4 class="display-4 home-intro-title">Removals Made Easy</h4>
+            <p class="lead home-intro-text">Gorkha Removal Company is a complete professional removal company specializing in house & 
+              office removals, demolition removals, any kind of rubbish removals and end of lease cleaning services. We 
+              strive to give the best service at the best price to all our costumers.
+          </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="quote-form">
-          <h3 class="form-title text-center">Get a Free Quote</h3>
-          <hr class="my-4">
-          <form id="quoteForm" method="POST" target="_blank" action="https://formsubmit.co/65401d59935c2baacc61b10aca3bcfc8">
-            <div class="form-group">
-              <input type="text" class="form-control form-control-lg mb-2" id="fullNameInput" name="fullName" placeholder="Full Name" required>
-            </div>
-            <div class="form-group">
-              <input type="tel" class="form-control form-control-lg mb-2" id="phoneInput" name="phone" placeholder="Phone" required pattern="[0-9]{9}">
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-control form-control-lg mb-2" id="emailInput" name="email" placeholder="Email" required>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control form-control-lg mb-2" id="movefromInput" name="movingFrom" placeholder="Moving From" required>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control form-control-lg mb-2" id="moveToInput" name="movingTo" placeholder="Moving To" required>
-            </div>
-            <div class="d-grid gap-2">
-              <input type="button" value="GET QUOTE" id="btnSubmit" class="btn btn-success btn-lg" onclick="submitForm()">
-            </div>
-            <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
-          </form>
+        <div class="col-md-4">
+          <div class="quote-form">
+            <h3 class="form-title text-center">Get a Free Quote</h3>
+            <hr class="my-4">
+            <form id="quoteForm" method="POST" target="_blank" action="https://formsubmit.co/65401d59935c2baacc61b10aca3bcfc8">
+              <div class="form-group">
+                <input type="text" class="form-control form-control-lg mb-2" id="fullNameInput" name="fullName" placeholder="Full Name" required>
+              </div>
+              <div class="form-group">
+                <input type="tel" class="form-control form-control-lg mb-2" id="phoneInput" name="phone" placeholder="Phone" required pattern="[0-9]{9}">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control form-control-lg mb-2" id="emailInput" name="email" placeholder="Email" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control form-control-lg mb-2" id="movefromInput" name="movingFrom" placeholder="Moving From" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control form-control-lg mb-2" id="moveToInput" name="movingTo" placeholder="Moving To" required>
+              </div>
+              <div class="d-grid gap-2">
+                <input type="button" value="GET QUOTE" id="btnSubmit" class="btn btn-success btn-lg" onclick="submitForm()">
+              </div>
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+            </form>
+          </div>
         </div>
       </div>
     </div>
