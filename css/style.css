@@ -91,7 +91,7 @@
 .service-box{
     border: 1px solid green;
     border-radius: 10px;
-    margin: 0 10px 25px 10px;
+    margin: 0 10px 25px 10px; 
 }
 
 .services-img{
@@ -127,6 +127,7 @@
     border-radius: 10px;
     background-color: #fff;
     padding: 5px;
+    margin-bottom: 15px;
 }
 
 .google-map{
@@ -143,8 +144,9 @@
     border-radius: 10px;
     background-color: #fff;
     color: green;
-    padding: 15px;
+    padding: 35px 25px 15px 25px;
     height: 300px;
+    margin-bottom: 15px;
 }
 
 .contact-icons{
@@ -181,6 +183,11 @@
     .display-4{
         font-size: 2rem !important;
     }
+  
+      .lead{
+        font-size: 1.1rem !important;
+        line-height: 1.4;
+    }
 
     .home-intro-container{
         background-image: none;
@@ -205,6 +212,32 @@
         padding: 25px 25px 50px 25px;
         width: 100%;
     }
+
+    .service-box{
+        width: 90%;
+        margin: 0px auto 25px auto;
+    }
+
+    .contact-info{
+        padding: 15px;
+        height: auto;
+    }
+
+    .contact-icons{
+        font-size: 1.5rem !important;
+        padding: 0 10px;
+    }
+
+    .social-links{
+        font-size: 2rem !important;
+        margin: 0 1px;
+        color: green;
+    }
+    
+    .copyright-msg{
+        font-size: 0.85rem;
+        color: green;
+    }
   }
 
   /* CSS for tablets screen */
@@ -215,12 +248,17 @@
         font-size: 2rem !important;
     }
 
+        .lead{
+        font-size: 1.1rem !important;
+        line-height: 1.4;
+    }
+
     .home-intro-container{
         background-image: none;
         background-repeat: no-repeat;
         background-size: cover;
     }
-    
+
     .home-intro{
         background-image: url("../img/sydney2.jpg");
         background-repeat: no-repeat;
@@ -237,5 +275,32 @@
         margin: 25px auto 100px auto;
         padding: 25px 25px 50px 25px;
         width: 90%;
+    }
+
+    .service-box{
+        width: 90%;
+        margin: 0px auto 25px auto;
+    }
+
+    
+    .contact-info{
+        padding: 15px;
+        height: auto;
+    }
+
+    .contact-icons{
+        font-size: 1.5rem !important;
+        padding: 0 10px;
+    }
+    
+    .social-links{
+        font-size: 2rem !important;
+        margin: 0 1px;
+        color: green;
+    }
+    
+    .copyright-msg{
+        font-size: 0.85rem;
+        color: green;
     }
   }
