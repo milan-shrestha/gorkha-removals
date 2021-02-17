@@ -228,18 +228,18 @@
         height: auto;
         margin: 100px auto 25px auto;
         padding: 400px 10px 25px 10px;
-        width: 90%;    }
+        width: 100%;    }
 
     .quote-form{
         border: 1px solid green;
         border-radius: 10px;
         margin: 100px auto;
         padding: 25px 25px 50px 25px;
-        width: 75%;
+        width: 85%;
     }
 
     .motto-box{
-        width: 75%;
+        width: 85%;
     }
 
     .motto-icons{
@@ -247,7 +247,7 @@
     }
 
     .service-box{
-        width: 75%;
+        width: 85%;
         margin: 0px auto 25px auto;
     }
 
@@ -299,7 +299,7 @@
         height: auto;
         margin: 100px auto 25px auto;
         padding: 400px 10px 25px 10px;
-        width: 90%;
+        width: 100%;
     }
 
     .quote-form{
@@ -307,11 +307,11 @@
         border-radius: 10px;
         margin: 25px auto 100px auto;
         padding: 25px 25px 50px 25px;
-        width: 75%;
+        width: 85%;
     }
 
     .motto-box{
-        width: 75%;
+        width: 85%;
     }
 
     .motto-icons{
@@ -319,7 +319,7 @@
     }
 
     .service-box{
-        width: 75%;
+        width: 85%;
         margin: 0px auto 25px auto;
     }
     
