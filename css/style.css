@@ -1,10 +1,5 @@
 /* CSS for navigation bar starts here */
 
-.nav-link {
-    padding-left: 0 !important;
-    padding-right: 10px !important;
-}
-
 .nav-item{
     text-align: right;
 }
@@ -210,6 +205,11 @@
 
 @media (max-width: 320px) {
 
+    .navbar-nav .nav-link {
+        padding-left: 0 !important;
+        padding-right: 10px !important;
+    }
+
     .display-4{
         font-size: 2rem !important;
     }
@@ -280,6 +280,11 @@
   /* CSS for tablets screen */
 
   @media (max-width: 768px) {
+
+    .navbar-nav .nav-link {
+        padding-left: 0 !important;
+        padding-right: 10px !important;
+    }
 
     .display-4{
         font-size: 2rem !important;
