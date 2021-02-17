@@ -1,8 +1,12 @@
 /* CSS for navigation bar starts here */
 
+.nav-link {
+    padding-left: 0 !important;
+    padding-right: 10px !important;
+}
+
 .nav-item{
     text-align: right;
-    padding-right: 5px;
 }
 
 .nav-link.active{
