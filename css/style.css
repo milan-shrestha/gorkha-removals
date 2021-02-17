@@ -62,19 +62,27 @@
 .company-motto-container{
     background-color: green;
     padding: 100px 0;
-    text-align: center;
+    /* text-align: center; */
     color: #fff;
 }
 
-.company-motto{
-    font-size: 1.75rem !important;
-    padding: 25px 0;
-    font-style: italic;
+.motto-box{
+    border: 3px solid #fff;
+    border-radius: 10px;
+    width: 95%;
+    display: block;
+    margin: 0 auto 15px auto;
+    padding: 15px;
 }
 
-.customer-satisfaction{
-    font-weight: bold;
-    font-size: 1.85rem !important;
+.motto-icons{
+    font-size: 5rem !important;
+    margin: 15px 0;
+}
+
+.motto-texts{
+    text-align: left;
+    margin-top: 13px;
 }
 
 /* CSS for company services starts here */
@@ -202,15 +210,22 @@
         height: auto;
         margin: 100px auto 25px auto;
         padding: 400px 10px 25px 10px;
-        width: 90%;
-    }
+        width: 90%;    }
 
     .quote-form{
         border: 1px solid green;
         border-radius: 10px;
         margin: 100px auto;
         padding: 25px 25px 50px 25px;
-        width: 90%;
+        width: 75%;
+    }
+
+    .motto-box{
+        width: 75%;
+    }
+
+    .motto-icons{
+        font-size: 4rem !important;
     }
 
     .service-box{
@@ -274,7 +289,15 @@
         border-radius: 10px;
         margin: 25px auto 100px auto;
         padding: 25px 25px 50px 25px;
-        width: 90%;
+        width: 75%;
+    }
+
+    .motto-box{
+        width: 75%;
+    }
+
+    .motto-icons{
+        font-size: 4rem !important;
     }
 
     .service-box{
