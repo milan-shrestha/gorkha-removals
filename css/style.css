@@ -188,6 +188,20 @@
     color: green;
 }
 
+/* CSS for thank.html starts here */
+
+.thank-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.thank-jumbotron{
+    background-color: #1877F2 !important;
+    color: #fff;
+}
+
 /* CSS for mobile devices */
 
 @media (max-width: 320px) {
