@@ -267,7 +267,7 @@
         <div class="container">
           <form id="email-form" target="_blank" action="https://formsubmit.co/65401d59935c2baacc61b10aca3bcfc8" method="POST">
             <div class="form-group">
-              <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+              <input type="text" name="username" class="form-control" placeholder="Full Name" required>
             </div>
             <div class="form-group">
                 <input type="email" name="email" class="form-control" placeholder="Email Address" required>
@@ -276,8 +276,11 @@
                 <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
             </div>
             <div class="d-grid gap-2">
-              <input type="button" value="Submit Form" class="btn btn-success" onclick="submitEmailForm()">
+              <button type="submit" class="btn btn-success">Send Email</button>
             </div>
+            <!-- <div class="d-grid gap-2">
+              <input type="button" value="Send Email" class="btn btn-success" onclick="submitEmailForm()">
+            </div> -->
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
         </form>
