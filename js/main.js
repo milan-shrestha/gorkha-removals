@@ -41,3 +41,24 @@ window.addEventListener("load", function() {
       
    })
 })
+
+
+//Form handler for Get Quote form
+
+window.addEventListener("load", function() {
+
+   let quoteForm = document.getElementById("quoteForm");
+   quoteForm.addEventListener("submit", function() {
+
+      let userFullName = document.querySelector("input[name=fullName]");
+      let userPhone = document.querySelector("input[name=phone]");
+      let userEmail = document.querySelector("input[name=email]");
+      let userMovingFrom = document.querySelector("input[name=movingFrom]");
+      let userMovingTo = document.querySelector("input[name=movingTo]");
+
+      if(userFullName.value === '' || userPhone === '' || userEmail.value === '' || userMovingFrom.value === '' || userMovingTo ==='') {
+         Event.preventDefault();
+      }
+      
+   })
+})
