@@ -24,6 +24,8 @@
 //     }
 //  }
 
+//Form handler for Email submit form
+
 window.addEventListener("load", function() {
 
    let emailForm = document.getElementById("email-form");
@@ -35,7 +37,7 @@ window.addEventListener("load", function() {
 
       if(userName.value === '' || userEmail.value === '' || userMsg.value === '') {
          Event.preventDefault();
-      } 
+      }
       
    })
 })
