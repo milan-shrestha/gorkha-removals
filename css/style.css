@@ -101,7 +101,7 @@
 }
 
 .service-box{
-    border: 1px solid green;
+    border: 2px solid green;
     border-radius: 10px;
     margin: 0 10px 25px 10px; 
 }
@@ -233,7 +233,7 @@
     }
 
     .service-box{
-        width: 90%;
+        width: 75%;
         margin: 0px auto 25px auto;
     }
 
@@ -305,10 +305,9 @@
     }
 
     .service-box{
-        width: 90%;
+        width: 75%;
         margin: 0px auto 25px auto;
     }
-
     
     .contact-info{
         padding: 15px;
