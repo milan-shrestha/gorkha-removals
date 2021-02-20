@@ -133,13 +133,13 @@
     margin-bottom: 25px;
 }
 
-.address-map{
+/* .address-map{
     border: 1px solid #fff;
     border-radius: 10px;
     background-color: #fff;
     padding: 5px;
     margin-bottom: 15px;
-}
+} 
 
 .google-map{
     display: block;
@@ -149,6 +149,16 @@
 .img-fluid{
     height: 290px !important;
 }
+*/
+
+.contact-form-container{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 25px;
+    margin: 0px auto 15px auto;
+    width: 85%;
+}
 
 .contact-info{
     border: 1px solid #fff;
@@ -156,8 +166,9 @@
     background-color: #fff;
     color: green;
     padding: 35px 25px 15px 25px;
-    height: 300px;
-    margin-bottom: 15px;
+    height: auto;
+    margin: 0px auto 15px auto;
+    width: 85%;
 }
 
 .contact-icons{
@@ -255,9 +266,14 @@
         margin: 0px auto 25px auto;
     }
 
+    .contact-form-container{
+        width: 100%;
+    }
+
     .contact-info{
         padding: 15px;
         height: auto;
+        width: 100%;
     }
 
     .contact-icons{
@@ -331,10 +347,15 @@
         width: 85%;
         margin: 0px auto 25px auto;
     }
+
+    .contact-form-container{
+        width: 100%;
+    }
     
     .contact-info{
         padding: 15px;
         height: auto;
+        width: 100%;
     }
 
     .contact-icons{
