@@ -239,7 +239,7 @@
 @media (max-width: 320px) {
 
     .logo{
-        width: 75%;
+        width: 85%;
         height: auto;
         display: block;
         margin: 0 auto;
@@ -349,7 +349,7 @@
   @media (max-width: 768px) {
 
     .logo{
-        width: 65%;
+        width: 75%;
         height: auto;
         display: block;
         margin: 15px auto;
