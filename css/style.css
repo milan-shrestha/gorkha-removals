@@ -1,6 +1,7 @@
 :root{
     --white: #fff;
-    --blue: #01a9c1;
+    --green: #42ba96;
+    --blue: #0975b8;
 }
 
 /* CSS for navigation bar starts here */
@@ -31,8 +32,7 @@
 
 .home-intro-title{
     color: var(--white);
-    font-weight: bold !important;
-    text-decoration: 1px 1px 1px #000;;
+    font-weight: bolder !important;
     margin-bottom: 15px;
 }
 
@@ -47,13 +47,13 @@
     border: 1px solid var(--white);
     border-radius: 10px;
     margin: 275px 0 25px 0;
-    padding: 25px 25px 25px 25px;
+    padding: 25px;
     width: 90%;
     background-color: var(--white);
 }
 
 .form-title{
-    color: var(--blue);
+    color: var(--green);
     margin-bottom: -15px !important;
 }
 
@@ -66,12 +66,12 @@
 .company-motto-container{
     background-color: var(--blue);
     padding: 100px 0;
-    /* text-align: center; */
     color: var(--white);
 }
 
 .motto-title{
-    margin-bottom: 25px;
+    margin-bottom: 35px;
+    font-weight: bold !important;
 }
 
 .motto-box{
@@ -89,8 +89,9 @@
 }
 
 .motto-texts{
-    text-align: left;
+    text-align: justify;
     margin-top: 13px;
+    margin-bottom: 0px;
 }
 
 /* CSS for company services starts here */
@@ -101,7 +102,8 @@
 
 .services-title{
     color: var(--blue);
-    margin-bottom: 25px;
+    margin-bottom: 35px;
+    font-weight: bold !important;
 }
 
 .service-box{
@@ -126,6 +128,10 @@
     border-bottom-right-radius: 10px;
 }
 
+.service-texts{
+    text-align: justify;
+}
+
 /* CSS for contact starts here */
 
 .contact-container{
@@ -135,7 +141,8 @@
 
 .contact-title{
     color: var(--white);
-    margin-bottom: 25px;
+    margin-bottom: 35px;
+    font-weight: bold !important;
 }
 
 /* .address-map{
@@ -181,6 +188,10 @@
     padding: 0 15px;
 }
 
+.contact-texts{
+    font-weight: bold !important;
+}
+
 /* CSS for footer starts here */
 
 .footer{
@@ -189,7 +200,8 @@
 
 .follow-title{
     color: var(--blue);
-    margin-bottom: 25px;
+    margin-bottom: 35px;
+    font-weight: bold !important;
 }
 
 .social-links{
@@ -219,7 +231,7 @@
 
 /* CSS for mobile devices */
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
 
     .navbar-nav .nav-link {
         padding-left: 0 !important;
@@ -230,7 +242,7 @@
         font-size: 2rem !important;
     }
   
-      .lead{
+    .lead{
         font-size: 1.1rem !important;
         line-height: 1.4;
     }
@@ -246,29 +258,42 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: auto;
-        margin: 100px auto 25px auto;
+        margin: 50px auto 25px auto;
         padding: 400px 10px 25px 10px;
-        width: 100%;    }
+        width: 100%;    
+    }
 
     .quote-form{
-        border: 1px solid var(--blue);
+        border: 1px solid var(--green);
         border-radius: 10px;
-        margin: 100px auto;
-        padding: 25px 25px 50px 25px;
-        width: 85%;
+        margin: 35px auto 50px auto;
+        padding: 25px;
+        width: 100%;
+    }
+
+    .company-motto-container{
+        padding: 35px 0;
     }
 
     .motto-box{
-        width: 85%;
+        width: 100%;
     }
 
     .motto-icons{
         font-size: 4rem !important;
     }
 
+    .company-services-container{
+        padding: 35px 0;
+    }
+
     .service-box{
-        width: 85%;
+        width: 100%;
         margin: 0px auto 25px auto;
+    }
+
+    .contact-container{
+        padding: 35px 0;
     }
 
     .contact-form-container{
@@ -284,6 +309,14 @@
     .contact-icons{
         font-size: 1.5rem !important;
         padding: 0 10px;
+    }
+
+    .footer{
+        padding: 25px 0 5px 0;
+    }
+
+    .follow-title{
+        margin-bottom: 15px;
     }
 
     .social-links{
@@ -300,7 +333,7 @@
 
   /* CSS for tablets screen */
 
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
 
     .navbar-nav .nav-link {
         padding-left: 0 !important;
@@ -311,7 +344,7 @@
         font-size: 2rem !important;
     }
 
-        .lead{
+    .lead{
         font-size: 1.1rem !important;
         line-height: 1.4;
     }
@@ -327,30 +360,42 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: auto;
-        margin: 100px auto 25px auto;
+        margin: 50px auto 25px auto;
         padding: 400px 10px 25px 10px;
         width: 100%;
     }
 
     .quote-form{
-        border: 1px solid var(--blue);
+        border: 1px solid var(--green);
         border-radius: 10px;
-        margin: 25px auto 100px auto;
-        padding: 25px 25px 50px 25px;
-        width: 85%;
+        margin: 25px auto 50px auto;
+        padding: 25px;
+        width: 100%;
+    }
+
+    .company-motto-container{
+        padding: 35px 0;
     }
 
     .motto-box{
-        width: 85%;
+        width: 100%;
     }
 
     .motto-icons{
         font-size: 4rem !important;
     }
 
+    .company-services-container{
+        padding: 35px 0;
+    }
+
     .service-box{
-        width: 85%;
+        width: 100%;
         margin: 0px auto 25px auto;
+    }
+
+    .contact-container{
+        padding: 35px 0;
     }
 
     .contact-form-container{
@@ -366,6 +411,14 @@
     .contact-icons{
         font-size: 1.5rem !important;
         padding: 0 10px;
+    }
+
+    .footer{
+        padding: 25px 0 5px 0;
+    }
+
+    .follow-title{
+        margin-bottom: 15px;
     }
     
     .social-links{
