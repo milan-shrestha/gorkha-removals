@@ -227,11 +227,30 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 450px;
+    max-width: 95%;
+    border: 1px solid var(--blue);
+    border-radius: 5px;
 }
 
-.thank-jumbotron{
-    background-color: var(--blue) !important;
+.thank-logo-container{
+    background-color: var(--white);
+}
+
+.thank-logo{
+    display: block;
+    margin: 25px auto;
+}
+
+.thank-message-container{
+    background-color: var(--blue);
     color: var(--white);
+    width: 450px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 25px 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 /* CSS for mobile devices */
