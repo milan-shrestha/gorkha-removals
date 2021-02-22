@@ -4,6 +4,11 @@
     --blue: #0975b8;
 }
 
+.logo{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+}
 /* CSS for navigation bar starts here */
 
 .nav-item{
@@ -233,6 +238,14 @@
 
 @media (max-width: 320px) {
 
+    .logo{
+        width: 75%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+
     .navbar-nav .nav-link {
         padding-left: 0 !important;
         padding-right: 10px !important;
@@ -334,6 +347,14 @@
   /* CSS for tablets screen */
 
   @media (max-width: 768px) {
+
+    .logo{
+        width: 65%;
+        height: auto;
+        display: block;
+        margin: 15px auto;
+        padding: 0;
+    }
 
     .navbar-nav .nav-link {
         padding-left: 0 !important;
