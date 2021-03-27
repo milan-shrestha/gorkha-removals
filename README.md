@@ -13,3 +13,11 @@ The webpage can be viewed line at [Gorkha Removals](https://milan-shrestha.githu
 * JavScript
 * Bootstrap
 * HTML/CSS
+
+## **Snapshots of the webpage**
+
+### Desktop View
+![Desktop view](./img/gr-desktop.png)
+
+### Mobile View
+![Mobile view](./img/gr-mobile.png)
