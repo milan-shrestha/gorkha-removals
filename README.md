@@ -1,9 +1,15 @@
 # **Gorkha Removals**
 
 ## **Overview**
-Gorkha Removals is a moving and removal company based in Sydney, Australia. This project is a simple static website made for the small business.
+
+This is a single page webpage built for a smaill business - moving company. It is a simple static website that gives general information about the business to the users. This site is mobile friendly.
+
+## **Live Preview**
+
+The webpage can be viewed line at [Gorkha Removals](https://milan-shrestha.github.io/gorkha-removals)
 
 ## **Technologies Used**
-* HTML/ CSS
-* Bootstrap
+
 * JavScript
+* Bootstrap
+* HTML/CSS
