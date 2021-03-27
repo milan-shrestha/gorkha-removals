@@ -2,12 +2,320 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <title>Home Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="js/main.js"></script>
+    <link rel="icon" type="image/png" href="img/logo-favicon.png" sizes="16*16">
+    <title>Gorkha Removals</title>
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#home-nav" data-bs-offset="0" tabindex="0">
+  <div class="navigation">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="home-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="logo img-fluid" src="img/new-logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Our Services</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Testimonials</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </div>
 
-<p>Hello, World!</p>
+  <div class="home-intro-container">
+    <div class="container" id="home">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="home-intro">
+            <h4 class="display-4 home-intro-title">Removals Made Easy</h4>
+            <p class="lead home-intro-text">Gorkha Removal Company is a complete professional removal company specializing in house & 
+              office removals, demolition removals, any kind of rubbish removals and end of lease cleaning services. We 
+              strive to give the best service at the best price to all our costumers.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="quote-form">
+            <h3 class="form-title text-center">Get a Free Quote</h3>
+            <hr class="my-4">
+            <form id="quoteForm" method="POST" target="_blank" action="https://formsubmit.co/65401d59935c2baacc61b10aca3bcfc8">
+              <div class="form-group">
+                <input type="text" class="form-control form-control-lg mb-2" id="fullNameInput" name="fullName" placeholder="Full Name" required>
+              </div>
+              <div class="form-group">
+                <input type="tel" class="form-control form-control-lg mb-2" id="phoneInput" name="phone" placeholder="Phone" required pattern="[0-9]{9}">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control form-control-lg mb-2" id="emailInput" name="email" placeholder="Email" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control form-control-lg mb-2" id="movefromInput" name="movingFrom" placeholder="Moving From" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control form-control-lg mb-2" id="moveToInput" name="movingTo" placeholder="Moving To" required>
+              </div>
+              <div class="d-grid gap-2">
+                <button type="submit" id="btnSubmit" class="btn btn-success btn-lg"> GET QUOTE</button>
+              </div>
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about">
+    <div class="company-motto-container">
+      <h4 class="display-3 motto-title text-center">About Us</h4>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="motto-box text-center">
+              <i class="fa fa-certificate motto-icons" aria-hidden="true"></i>
+              <h3 class="motto-header">Experienced Specialist</h3>
+              <p class="lead motto-texts">We are experienced professionals and specialists with years of 
+                experience in removal & cleaning industry. We understand the know how of our jobs and we guarantee 
+                to deliver the best results all the time.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="motto-box text-center">
+              <i class="fa fa-clock-o motto-icons" aria-hidden="true"></i>
+              <h3 class="motto-header">Punctual & Neat</h3>
+              <p class="lead motto-texts">We are punctual, neat and tidy, very friendly and honest in our profession.
+                We always show up on time for our jobs and finish them within scheduled time. We guarantee to clean 
+                up behind after every jobs.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="motto-box text-center">
+              <i class="fa fa-check-circle motto-icons" aria-hidden="true"></i>
+              <h3 class="motto-header">Customer Satisfaction</h3>
+              <p class="lead motto-texts">Customer Satisfaction is our company's motto. We work very hard to give 100% 
+                 perfect result to our customers. We guarantee to do our best to make all the jobs smooth & stress-free 
+                 for all our customers.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="company-services-container" id="services">
+    <h4 class="display-3 text-center services-title">Our Services</h4>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="service-box">
+            <img class="services-img" src="img/house-moving.jpg" alt="House Moving Photo">
+            <div class="service-description-box">
+              <h4 class="text-center">House Moving</h4>
+              <p class="lead service-texts">We provide a complete house moving service that includes packaging, labelling, moving and 
+                setting up in final destination. We handle all products with care to make your move stress free.</p> 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <img class="services-img" src="img/office.jpg" alt="Office Moving Photo">
+            <div class="service-description-box">
+              <h4 class="text-center">Office Moving</h4>
+              <p class="lead service-texts">Our office moving service provides a smooth & hassle free transition to your new location.
+                 We guarantee a quick and safe move so that you can resume your work and continue on with your business.</p> 
+            </div>
+          </div> 
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <img class="services-img" src="img/rubbish1.jpg" alt="Rubbish Removal Photo">
+            <div class="service-description-box">
+              <h4 class="text-center">Rubbish Removal</h4>
+              <p class="lead service-texts">We offer rubbish removal services for commercial, residential and local customers. We will 
+                come to your locations and remove all kinds of commercial as well as household rubbish promptly.</p> 
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="service-box">
+            <img class="services-img" src="img/demolition.jpg" alt="Demolition Removal Photo">
+            <div class="service-description-box">
+              <h4 class="text-center">Demolition Removals</h4>
+              <p class="lead service-texts">We provide removal services of rubbish from demolition place. We will clean up all the 
+                destructed materials from the site as fast as possible so that you can resume your further work quick.</p> 
+            </div>
+          </div> 
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <img class="services-img" src="img/cleaning.jpg" alt="End os Lease Cleaning Photo">
+            <div class="service-description-box">
+              <h4 class="text-center">End of Lease Cleaning</h4>
+              <p class="lead service-texts">Our End of Lease Cleaning service includes cleaning up the entire property with guaranteed
+                 spot-less work. We will make sure you can enjoy your new place while we take care of your old place.</p>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-container" id="contact">
+    <h4 class="display-3 text-center contact-title">Contact Us</h4>
+    <div class="container">
+      <div class="row">
+        <!-- <div class="col-md-6">
+          <div class="address-map">
+            <iframe class="google-map img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.275723595313!2d151.21310801516606!3d-33.85678438065956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae665e892fdd%3A0x3133f8d75a1ac251!2sSydney%20Opera%20House!5e0!3m2!1sen!2sus!4v1613149877179!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+        </div> -->
+
+        <div class="col-md-6">
+          <div class="contact-form-container">
+            <form id="email-form" target="_blank" action="https://formsubmit.co/65401d59935c2baacc61b10aca3bcfc8" method="POST">
+              <div class="form-group">
+                <input type="text" name="username" class="form-control" placeholder="Full Name" required>
+              </div>
+              <div class="form-group">
+                  <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+              </div>
+              <div class="form-group">
+                  <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-success">Send Email</button>
+              </div>
+              <!-- <div class="d-grid gap-2">
+                <input type="button" value="Send Email" class="btn btn-success" onclick="submitEmailForm()">
+              </div> -->
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+          </form>
+        </div>
+        </div>
+        <div class="col-md-6">
+          <div class="contact-info">
+            <table>
+              <tr>
+                <td>
+                  <i class="fa fa-map-marker contact-icons" aria-hidden="true"></i>
+                </td>
+                <td>
+                  <p class="lead contact-texts">123 Sydney NSW 111</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa fa-phone contact-icons" aria-hidden="true"></i>
+                </td>
+                <td>
+                  <p class="lead contact-texts">0123456789</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa fa-phone contact-icons" aria-hidden="true"></i>
+                </td>
+                <td>
+                  <p class="lead contact-texts">0123456789</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa fa-envelope-o contact-icons" aria-hidden="true"></i>
+                </td>
+                <td>
+                  <p class="lead contact-texts">contact@ownremovals.com</p>
+                </td>
+              </tr>
+              <!-- <tr>
+                <td>
+                  <i class="fa fa-share contact-icons" aria-hidden="true"></i>
+                </td>
+                <td>
+                  <button class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#emailModalCenter">Click to Email Us</button>
+                </td>
+              </tr> -->
+            </table>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer text-center">
+    <div class="conatiner-fluid">
+      <h4 class="display-5 follow-title">Follow Us</h4>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="#"><i class="fa fa-facebook-square social-links" aria-hidden="true"></i></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#"><i class="fa fa-twitter-square social-links" aria-hidden="true"></i></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#"><i class="fa fa-instagram social-links" aria-hidden="true"></i></a>
+        </li>
+      </ul>
+      <div class="copyright-msg">
+        <p>Gorkha Removals &copy; <script>document.write(new Date().getFullYear())</script> All rights reserved</p>
+      </div>
+    </div>
+  </div>
+
+<!-- Email Modal
+<div class="modal fade" id="emailModalCenter" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Email Us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <form id="email-form" target="_blank" action="https://formsubmit.co/65401d59935c2baacc61b10aca3bcfc8" method="POST">
+            <div class="form-group">
+              <input type="text" name="username" class="form-control" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+            </div>
+            <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-success">Send Email</button>
+            </div>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+        </form>
+      </div>
+    </div>
+  </div>
+</div> -->
 
 </body>
 </html>

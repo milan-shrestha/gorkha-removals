@@ -1,0 +1,474 @@
+:root{
+    --white: #fff;
+    --green: #42ba96;
+    --blue: #0975b8;
+}
+
+.logo{
+    width: 100%;
+    height: auto;
+    /* padding: 15px; */
+}
+/* CSS for navigation bar starts here */
+
+.nav-item{
+    text-align: right;
+}
+
+.nav-link.active{
+    background-color: var(--blue) !important;
+    color: var(--white) !important;
+}
+
+/* CSS for Home Intro starts here */
+
+.home-intro-container{
+    background-image: url("../img/sydney1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.home-intro{
+    margin: 425px auto 25px auto;
+    padding: 50px 0;
+    width: 75%;
+}
+
+.home-intro-title{
+    color: var(--white);
+    font-weight: bolder !important;
+    margin-bottom: 15px;
+}
+
+.home-intro-text{
+    color: var(--white);
+    font-weight: bold !important;
+}
+
+/* CSS for Quote Form starts here */
+
+.quote-form{
+    border: 1px solid var(--white);
+    border-radius: 10px;
+    margin: 275px 0 25px 0;
+    padding: 25px;
+    width: 90%;
+    background-color: var(--white);
+}
+
+.form-title{
+    color: var(--green);
+    margin-bottom: -15px !important;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+/* CSS for company- motto starts here */
+
+.company-motto-container{
+    background-color: var(--blue);
+    padding: 100px 0;
+    color: var(--white);
+}
+
+.motto-title{
+    margin-bottom: 35px;
+    font-weight: bold !important;
+}
+
+.motto-box{
+    border: 3px solid var(--white);
+    border-radius: 10px;
+    width: 95%;
+    display: block;
+    margin: 0 auto 15px auto;
+    padding: 15px;
+}
+
+.motto-icons{
+    font-size: 5rem !important;
+    margin: 15px 0;
+}
+
+.motto-texts{
+    text-align: justify;
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+
+/* CSS for company services starts here */
+
+.company-services-container{
+    padding: 100px 0;
+}
+
+.services-title{
+    color: var(--blue);
+    margin-bottom: 35px;
+    font-weight: bold !important;
+}
+
+.service-box{
+    border: 2px solid var(--blue);
+    border-radius: 10px;
+    margin: 0 10px 25px 10px; 
+}
+
+.services-img{
+    width: 95%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 15px auto; 
+}
+
+.service-description-box{
+    padding: 15px;
+    background-color: var(--blue);
+    color: var(--white);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.service-texts{
+    text-align: justify;
+}
+
+/* CSS for contact starts here */
+
+.contact-container{
+    padding: 50px 0;
+    background-color: var(--blue);
+}
+
+.contact-title{
+    color: var(--white);
+    margin-bottom: 35px;
+    font-weight: bold !important;
+}
+
+/* .address-map{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 5px;
+    margin-bottom: 15px;
+} 
+
+.google-map{
+    display: block;
+    margin: 0 auto;
+}
+
+.img-fluid{
+    height: 290px !important;
+}
+*/
+
+.contact-form-container{
+    border: 1px solid var(--white);
+    border-radius: 10px;
+    background-color: var(--white);
+    padding: 25px;
+    margin: 0px auto 15px auto;
+    width: 85%;
+}
+
+.contact-info{
+    border: 1px solid var(--white);
+    border-radius: 10px;
+    background-color: var(--white);
+    color: var(--blue);
+    padding: 35px 25px 15px 25px;
+    height: auto;
+    margin: 0px auto 15px auto;
+    width: 85%;
+}
+
+.contact-icons{
+    font-size: 2rem !important;
+    padding: 0 15px;
+}
+
+.contact-texts{
+    font-weight: bold !important;
+}
+
+/* CSS for footer starts here */
+
+.footer{
+    padding: 50px 0 15px 0;
+}
+
+.follow-title{
+    color: var(--blue);
+    margin-bottom: 35px;
+    font-weight: bold !important;
+}
+
+.social-links{
+    font-size: 2.5rem !important;
+    margin: 0 5px;
+    color: var(--blue);
+}
+
+.copyright-msg{
+    font-size: 1rem;
+    color: var(--blue);
+}
+
+/* CSS for thank.html starts here */
+
+.thank-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    max-width: 95%;
+    border: 1px solid var(--blue);
+    border-radius: 5px;
+}
+
+.thank-logo-container{
+    background-color: var(--white);
+}
+
+.thank-logo{
+    display: block;
+    margin: 25px auto;
+}
+
+.thank-message-container{
+    background-color: var(--blue);
+    color: var(--white);
+    width: 450px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 25px 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* CSS for mobile devices */
+
+@media (max-width: 320px) {
+
+    .logo{
+        width: 85%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .navbar-nav .nav-link {
+        padding-left: 0 !important;
+        padding-right: 10px !important;
+    }
+
+    .display-4{
+        font-size: 2rem !important;
+    }
+  
+    .lead{
+        font-size: 1.1rem !important;
+        line-height: 1.4;
+    }
+
+    .home-intro-container{
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .home-intro{
+        background-image: url("../img/sydney2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        margin: 50px auto 25px auto;
+        padding: 400px 10px 25px 10px;
+        width: 100%;    
+    }
+
+    .quote-form{
+        border: 1px solid var(--green);
+        border-radius: 10px;
+        margin: 35px auto 50px auto;
+        padding: 25px;
+        width: 100%;
+    }
+
+    .company-motto-container{
+        padding: 35px 0;
+    }
+
+    .motto-box{
+        width: 100%;
+    }
+
+    .motto-icons{
+        font-size: 4rem !important;
+    }
+
+    .company-services-container{
+        padding: 35px 0;
+    }
+
+    .service-box{
+        width: 100%;
+        margin: 0px auto 25px auto;
+    }
+
+    .contact-container{
+        padding: 35px 0;
+    }
+
+    .contact-form-container{
+        width: 100%;
+    }
+
+    .contact-info{
+        padding: 15px;
+        height: auto;
+        width: 100%;
+    }
+
+    .contact-icons{
+        font-size: 1.5rem !important;
+        padding: 0 10px;
+    }
+
+    .footer{
+        padding: 25px 0 5px 0;
+    }
+
+    .follow-title{
+        margin-bottom: 15px;
+    }
+
+    .social-links{
+        font-size: 2rem !important;
+        margin: 0 1px;
+        color: var(--blue);
+    }
+    
+    .copyright-msg{
+        font-size: 0.85rem;
+        color: var(--blue);
+    }
+  }
+
+  /* CSS for tablets screen */
+
+  @media (max-width: 768px) {
+
+    .logo{
+        width: 75%;
+        height: auto;
+        display: block;
+        margin: 15px auto;
+        padding: 0;
+    }
+
+    .navbar-nav .nav-link {
+        padding-left: 0 !important;
+        padding-right: 10px !important;
+    }
+
+    .display-4{
+        font-size: 2rem !important;
+    }
+
+    .lead{
+        font-size: 1.1rem !important;
+        line-height: 1.4;
+    }
+
+    .home-intro-container{
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .home-intro{
+        background-image: url("../img/sydney2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        margin: 50px auto 25px auto;
+        padding: 400px 10px 25px 10px;
+        width: 100%;
+    }
+
+    .quote-form{
+        border: 1px solid var(--green);
+        border-radius: 10px;
+        margin: 25px auto 50px auto;
+        padding: 25px;
+        width: 100%;
+    }
+
+    .company-motto-container{
+        padding: 35px 0;
+    }
+
+    .motto-box{
+        width: 100%;
+    }
+
+    .motto-icons{
+        font-size: 4rem !important;
+    }
+
+    .company-services-container{
+        padding: 35px 0;
+    }
+
+    .service-box{
+        width: 100%;
+        margin: 0px auto 25px auto;
+    }
+
+    .contact-container{
+        padding: 35px 0;
+    }
+
+    .contact-form-container{
+        width: 100%;
+    }
+    
+    .contact-info{
+        padding: 15px;
+        height: auto;
+        width: 100%;
+    }
+
+    .contact-icons{
+        font-size: 1.5rem !important;
+        padding: 0 10px;
+    }
+
+    .footer{
+        padding: 25px 0 5px 0;
+    }
+
+    .follow-title{
+        margin-bottom: 15px;
+    }
+    
+    .social-links{
+        font-size: 2rem !important;
+        margin: 0 1px;
+        color: var(--blue);
+    }
+    
+    .copyright-msg{
+        font-size: 0.85rem;
+        color: var(--blue);
+    }
+  }
